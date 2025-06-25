@@ -1,0 +1,28 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output of `go run`
+*.log
+
+# Vendor directories
+/vendor/
+
+# Dependency directories (Go modules)
+/bin/
+/pkg/
+
+# IDE/editor specific
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS-specific files
+.DS_Store
+Thumbs.db
